@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw_aviation
+    database: dbt_test  # <--- Point this to your new database
+    schema: raw        # Where you uploaded the 7 files
+    tables:
+      - name: airports
+      - name: airport_frequencies
+      - name: airport_comments
+      - name: runways
+      - name: regions
+      - name: countries
+      - name: navaids
