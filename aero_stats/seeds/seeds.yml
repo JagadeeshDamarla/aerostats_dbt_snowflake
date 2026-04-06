@@ -1,0 +1,13 @@
+version: 2
+
+seeds:
+  - name: countries_seeds
+    config:
+      schema: gold
+      column_types:
+        id: integer
+        code: varchar(10)  # Forces this to be a string
+        name: varchar(2000)
+        continent: varchar(300)
+        wikipedia_link: varchar(2000)
+        keywords: varchar(1000)

@@ -6,7 +6,8 @@ Version: 1
 Purpose: This layer will create the staging layer for airports table.
 Source: dbt_test.raw.airports
 */
-
+ingestion.raw.tablea
+dbt_test.bronze.stg_tablea - create
 {{ config(
     materialized='view',
     schema='bronze',
